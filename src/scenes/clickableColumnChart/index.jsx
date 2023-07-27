@@ -42,7 +42,7 @@ class ClickableColumnChart extends Component {
               color: '#c23531'
             }
           },
-          onclick: () => {
+          onclick: (params) => {
             // Log the name of the clicked column to the console
             console.log(params.name);
           }
